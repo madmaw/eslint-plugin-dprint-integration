@@ -15,8 +15,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.1
       '@dprint/json':
-        specifier: ^0.19.1
-        version: 0.19.1
+        specifier: ^0.19.4
+        version: 0.19.4
       '@dprint/markdown':
         specifier: ^0.16.3
         version: 0.16.3
@@ -24,14 +24,14 @@ importers:
         specifier: ^0.5.4
         version: 0.5.4
       '@dprint/typescript':
-        specifier: ^0.88.7
-        version: 0.88.10
+        specifier: ^0.93.3
+        version: 0.93.3
       defu:
         specifier: ^6.1.3
         version: 6.1.4
       dprint-plugin-malva:
-        specifier: ^0.1.4
-        version: 0.1.4
+        specifier: ^0.10.1
+        version: 0.10.1
       dprint-plugin-markup:
         specifier: ^0.2.6
         version: 0.2.6
@@ -70,8 +70,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       eslint-plugin-dprint-integration2:
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: '*'
+        version: 0.4.2
       pkgroll:
         specifier: ^2.0.1
         version: 2.0.1(typescript@5.3.3)
@@ -208,8 +208,8 @@ packages:
   '@dprint/formatter@0.2.1':
     resolution: {integrity: sha512-GCzgRt2o4mhZLy8L47k2A+q9EMG/jWhzZebE29EqKsxmjDrSfv2VisEj/Q+39OOf04jTkEfB/TRO+IZSyxHdYg==}
 
-  '@dprint/json@0.19.1':
-    resolution: {integrity: sha512-E0bI+OhrtQ0gskbSvJsNavd1txORH7vb49AA5ZwjBE90y+668cOsaz0Si1LcBMU6HCJdybux8N1ksinhbYYIZg==}
+  '@dprint/json@0.19.4':
+    resolution: {integrity: sha512-65NHNet0KXpARa4iX9ZNMtzQQoQEUnHCHGOYfA6OICz8+V+7FNjieeltlCZf0gTLs3eBbgFuy8RsFX9+jYt1Uw==}
 
   '@dprint/markdown@0.16.3':
     resolution: {integrity: sha512-KvwUrCdHR1spFk0EcdW33KEGFLfkcdx6hJN8mwipGBw0b40sl5oPtVUTgRiH70eV7VUhPfycDfIsDutWNHb17w==}
@@ -219,6 +219,9 @@ packages:
 
   '@dprint/typescript@0.88.10':
     resolution: {integrity: sha512-dvpgx/jWa+UCNdhqpijpF5sgOeXjm09orGlwuSgTK8Kc+6Nj2keM8lcUT4lCU6rqF1IeSTbtEepGAZOtmUy3MA==}
+
+  '@dprint/typescript@0.93.3':
+    resolution: {integrity: sha512-P/AAHYDyUG+5hih8knuk3s9n2wrCD1LSh0YsLlJMx6+v0Wsjf0PpcVRn+xDvHCtwPUctB5WBkZT2U8mu6Cm7RQ==}
 
   '@esbuild/aix-ppc64@0.19.12':
     resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
@@ -1397,6 +1400,9 @@ packages:
   dprint-plugin-malva@0.1.4:
     resolution: {integrity: sha512-JlIIwMinQFLziMML6IYto7kv+hIuVtSJSoCUj7c4DwfVGHXJIccRypI4AxLxpEZVOleecWDCLGuNk+Fpdu1aGg==}
 
+  dprint-plugin-malva@0.10.1:
+    resolution: {integrity: sha512-nLBPBQWUDWLEIRfsZEVQwNwL3ljcJghSmGd7oLb4bETmnArQBq4Pjr0g3vksl+XY2EEFxN6o476bkK3bq/YXkw==}
+
   dprint-plugin-markup@0.2.6:
     resolution: {integrity: sha512-/kFMWDdNzL+arSgCt6b2xbi89b+fODcWMrnX85xjLsCuozNZOaZCvJ1vcOMOaFFpFKULdWxCggX8jc9GVfF38Q==}
 
@@ -1541,8 +1547,8 @@ packages:
   eslint-plugin-case-police@0.6.1:
     resolution: {integrity: sha512-SNyZBjc39CwoNSOl3aiu5EsuHYXOIaPDraMsgLQmcH8CbEhllyOMkmV9kuSNHjjtM8iYRHsiBs1WEFw3/9qkoQ==}
 
-  eslint-plugin-dprint-integration2@0.4.0:
-    resolution: {integrity: sha512-6hiy/51AiwOUe0BLOhD7TM6egaa/FPSCBubBHuxgjVR9Qlow196wYzrJ3fpkdaYTAyeSoOaq7GQarltO84tU2Q==}
+  eslint-plugin-dprint-integration2@0.4.2:
+    resolution: {integrity: sha512-+ezTEGqYEtiR6CJYkdDpEytXiDY4enoeOucgm/xVTkgjZix+3oXZZ6buqiZSG2NH0HhBe4zSTpVQ5J3irWMmZQ==}
 
   eslint-plugin-es-x@7.5.0:
     resolution: {integrity: sha512-ODswlDSO0HJDzXU0XvgZ3lF3lS3XAZEossh15Q2UHjwrJggWeBoKqqEsLTZLXl+dh5eOAozG0zRcYtuE35oTuQ==}
@@ -3763,13 +3769,15 @@ snapshots:
 
   '@dprint/formatter@0.2.1': {}
 
-  '@dprint/json@0.19.1': {}
+  '@dprint/json@0.19.4': {}
 
   '@dprint/markdown@0.16.3': {}
 
   '@dprint/toml@0.5.4': {}
 
   '@dprint/typescript@0.88.10': {}
+
+  '@dprint/typescript@0.93.3': {}
 
   '@esbuild/aix-ppc64@0.19.12':
     optional: true
@@ -4962,6 +4970,8 @@ snapshots:
 
   dprint-plugin-malva@0.1.4: {}
 
+  dprint-plugin-malva@0.10.1: {}
+
   dprint-plugin-markup@0.2.6: {}
 
   eastasianwidth@0.2.0: {}
@@ -5199,11 +5209,11 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-dprint-integration2@0.4.0:
+  eslint-plugin-dprint-integration2@0.4.2:
     dependencies:
       '@dprint/dockerfile': 0.3.2
       '@dprint/formatter': 0.2.1
-      '@dprint/json': 0.19.1
+      '@dprint/json': 0.19.4
       '@dprint/markdown': 0.16.3
       '@dprint/toml': 0.5.4
       '@dprint/typescript': 0.88.10

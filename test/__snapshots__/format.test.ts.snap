@@ -1,18 +1,36 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`format > File: ./__fixtures__/format/svelte.svelte 1`] = `
+exports[`format > File: css.css 1`] = `
+".class {
+  background-color: #fff;
+  font-family: "Courier New";
+  height: 200px;
+  width: 100px;
+}
+"
+`;
+
+exports[`format > File: css.css 2`] = `[]`;
+
+exports[`format > File: svelte.svelte 1`] = `
 "<div></div>
 "
 `;
 
-exports[`format > File: ./__fixtures__/format/typescript.ts 1`] = `
+exports[`format > File: svelte.svelte 2`] = `[]`;
+
+exports[`format > File: typescript.ts 1`] = `
 "const a = "1";
 "
 `;
 
-exports[`format > File: ./__fixtures__/format/vue.vue 1`] = `
+exports[`format > File: typescript.ts 2`] = `[]`;
+
+exports[`format > File: vue.vue 1`] = `
 "<template>
   <div></div>
 </template>
 "
 `;
+
+exports[`format > File: vue.vue 2`] = `[]`;

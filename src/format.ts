@@ -90,6 +90,7 @@ export class Formatter {
 		if (language === "typescript" && hasNewlineOnly(source)) {
 			return source;
 		}
+
 		switch (language) {
 			case "typescript": {
 				return this.typescript.formatText(filename, source);
