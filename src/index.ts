@@ -52,7 +52,7 @@ function reportIf(
 	}
 }
 
-let formatter: Formatter;
+const formatters: Record<string, Formatter> = {};
 
 export default {
 	configs: {
@@ -157,8 +157,12 @@ export default {
 					globalConfig = defu(globalConfig, dprintGlobalConfig);
 					pluginConfig = defu(pluginConfig, dprintPluginConfig);
 				}
-				if (!formatter) {
-					formatter = new Formatter(globalConfig, pluginConfig);
+				const key = JSON.stringify(pluginConfig);
+				const existingFormatter = formatters[key];
+				const formatter =
+					existingFormatter ?? new Formatter(globalConfig, pluginConfig);
+				if (existingFormatter == null) {
+					formatters[key] = formatter;
 				}
 				const diagnostics = formatter.configDiagnostics;
 				if (diagnostics.length > 0) {

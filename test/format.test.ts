@@ -15,10 +15,10 @@ const linterConfig = {
 			{},
 			{
 				malva: {
-					declarationOrder: "alphabetical"
-				}
+					declarationOrder: "alphabetical",
+				},
 			},
-		]
+		],
 	},
 } satisfies Linter.Config;
 
