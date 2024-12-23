@@ -69,9 +69,9 @@ importers:
       eslint-parser-plain:
         specifier: ^0.1.0
         version: 0.1.0
-      eslint-plugin-dprint-integration:
-        specifier: ^0.3.0
-        version: 0.3.0
+      eslint-plugin-dprint-integration2:
+        specifier: ^0.4.0
+        version: 0.4.0
       pkgroll:
         specifier: ^2.0.1
         version: 2.0.1(typescript@5.3.3)
@@ -208,23 +208,14 @@ packages:
   '@dprint/formatter@0.2.1':
     resolution: {integrity: sha512-GCzgRt2o4mhZLy8L47k2A+q9EMG/jWhzZebE29EqKsxmjDrSfv2VisEj/Q+39OOf04jTkEfB/TRO+IZSyxHdYg==}
 
-  '@dprint/json@0.17.4':
-    resolution: {integrity: sha512-9BmvkJRwICKr2hoC+WYtc3ewHi4PRRTmtk3RShpBFDEcYyMVB9+vXyxw/J/oMUlRfMY0jvOM5m+QlxgSo6g88Q==}
-
   '@dprint/json@0.19.1':
     resolution: {integrity: sha512-E0bI+OhrtQ0gskbSvJsNavd1txORH7vb49AA5ZwjBE90y+668cOsaz0Si1LcBMU6HCJdybux8N1ksinhbYYIZg==}
-
-  '@dprint/markdown@0.15.3':
-    resolution: {integrity: sha512-QCpvOQZtvq8HNbUobh9lAW5V4PrEncpfKLltxgM/DjLymDHUQ5EOnHUHaBlKu0ze+xtApBFnJpZS2xhjoNpj9g==}
 
   '@dprint/markdown@0.16.3':
     resolution: {integrity: sha512-KvwUrCdHR1spFk0EcdW33KEGFLfkcdx6hJN8mwipGBw0b40sl5oPtVUTgRiH70eV7VUhPfycDfIsDutWNHb17w==}
 
   '@dprint/toml@0.5.4':
     resolution: {integrity: sha512-d+5GwwzztZD0QixmOBhaO6nWVLsAeYsJ1HJYNxDoDRbASFCpza9BBVshG5ctBRXCkkIHhD9BO1SnbOoRQltUQw==}
-
-  '@dprint/typescript@0.84.4':
-    resolution: {integrity: sha512-QIdXKI+bbtV7l+k3eBsPtbWFD4ELwY+Hbd9uH2sIOK6ZNzBquTO/EJNX77Pr25kdaj39lPr2Do1YDZM4iQVqXg==}
 
   '@dprint/typescript@0.88.10':
     resolution: {integrity: sha512-dvpgx/jWa+UCNdhqpijpF5sgOeXjm09orGlwuSgTK8Kc+6Nj2keM8lcUT4lCU6rqF1IeSTbtEepGAZOtmUy3MA==}
@@ -1550,8 +1541,8 @@ packages:
   eslint-plugin-case-police@0.6.1:
     resolution: {integrity: sha512-SNyZBjc39CwoNSOl3aiu5EsuHYXOIaPDraMsgLQmcH8CbEhllyOMkmV9kuSNHjjtM8iYRHsiBs1WEFw3/9qkoQ==}
 
-  eslint-plugin-dprint-integration@0.3.0:
-    resolution: {integrity: sha512-w92Av81MjERgR4h/03APU1T/XYvgp+8UV1KIoRwSqsKrbAlkiY9+iUKVX2hjN/5Sh2NnLrBFIt+NTpO6DieikA==}
+  eslint-plugin-dprint-integration2@0.4.0:
+    resolution: {integrity: sha512-6hiy/51AiwOUe0BLOhD7TM6egaa/FPSCBubBHuxgjVR9Qlow196wYzrJ3fpkdaYTAyeSoOaq7GQarltO84tU2Q==}
 
   eslint-plugin-es-x@7.5.0:
     resolution: {integrity: sha512-ODswlDSO0HJDzXU0XvgZ3lF3lS3XAZEossh15Q2UHjwrJggWeBoKqqEsLTZLXl+dh5eOAozG0zRcYtuE35oTuQ==}
@@ -3772,17 +3763,11 @@ snapshots:
 
   '@dprint/formatter@0.2.1': {}
 
-  '@dprint/json@0.17.4': {}
-
   '@dprint/json@0.19.1': {}
-
-  '@dprint/markdown@0.15.3': {}
 
   '@dprint/markdown@0.16.3': {}
 
   '@dprint/toml@0.5.4': {}
-
-  '@dprint/typescript@0.84.4': {}
 
   '@dprint/typescript@0.88.10': {}
 
@@ -5214,15 +5199,17 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-dprint-integration@0.3.0:
+  eslint-plugin-dprint-integration2@0.4.0:
     dependencies:
       '@dprint/dockerfile': 0.3.2
       '@dprint/formatter': 0.2.1
-      '@dprint/json': 0.17.4
-      '@dprint/markdown': 0.15.3
+      '@dprint/json': 0.19.1
+      '@dprint/markdown': 0.16.3
       '@dprint/toml': 0.5.4
-      '@dprint/typescript': 0.84.4
+      '@dprint/typescript': 0.88.10
       defu: 6.1.4
+      dprint-plugin-malva: 0.1.4
+      dprint-plugin-markup: 0.2.6
       find-up: 5.0.0
       prettier-linter-helpers: 1.0.0
 

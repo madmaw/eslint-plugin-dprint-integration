@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-dprint-integration2",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"packageManager": "pnpm@8.15.4",
 	"author": "Ray <i@mk1.io> (@so1ve)",
 	"description": "Integrate dprint into eslint.",
@@ -75,7 +75,7 @@
 		"bumpp": "^9.3.0",
 		"eslint": "^8.56.0",
 		"eslint-parser-plain": "^0.1.0",
-		"eslint-plugin-dprint-integration": "^0.3.0",
+		"eslint-plugin-dprint-integration2": "^0.4.0",
 		"pkgroll": "^2.0.1",
 		"prettier": "^3.1.1",
 		"typescript": "^5.3.3",
