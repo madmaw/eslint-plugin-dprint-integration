@@ -57,9 +57,9 @@ let formatter: Formatter;
 export default {
 	configs: {
 		"recommended": {
-			plugins: ["dprint-integration"],
+			plugins: ["dprint-integration2"],
 			rules: {
-				"dprint-integration/dprint": "error",
+				"dprint-integration2/dprint": "error",
 				"arrow-body-style": "off",
 				"prefer-arrow-callback": "off",
 			},
